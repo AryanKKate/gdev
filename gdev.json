@@ -1,0 +1,5561 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "955dee1e-ea8b-49d1-a52c-53f137f2bae0",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Dry Run Prac",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Suv Luxury5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Suv Luxury5.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Garbage Truck.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Garbage Truck.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Large Building A.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Large Building A.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Large Building F2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Large Building F2.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Common Tree 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Common Tree 1.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Road Bend.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Road Bend.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Road Crossroad Path.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Road Crossroad Path.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Road Intersection Path.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Road Intersection Path.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Road Straight.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Road Straight.glb",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Grass.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sedan Sports.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Sedan Sports.glb",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SpawnPoint.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SpawnPoint.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Coin.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Coin.glb",
+        "userAdded": true
+      },
+      {
+        "file": "Chango-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Chango-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "../G develop proj/assets/Sedan.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "..\\G develop proj\\assets\\Sedan.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sedan.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Sedan.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Coin.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Coin.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Police.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Police.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/CoinPickUP.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\CoinPickUP.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Collision.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Collision.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Scene1",
+      "name": "Scene1",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4633111824513976,
+        "windowMask": false
+      },
+      "objectsGroups": [
+        {
+          "name": "Road",
+          "objects": [
+            {
+              "name": "Road_Bend"
+            },
+            {
+              "name": "RoadCross"
+            },
+            {
+              "name": "RoadIntersection"
+            },
+            {
+              "name": "RoadStraight"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "folded": true,
+          "name": "PlayerNumber",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Car1",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 2,
+              "restitution": 1.5,
+              "linearDamping": 4,
+              "angularDamping": 20,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Suv Luxury5.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Car2",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 2,
+              "restitution": 1.5,
+              "linearDamping": 4,
+              "angularDamping": 20,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Garbage Truck.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Building1",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 245,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Large Building A.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 245,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Building2",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Large Building F2.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Tree",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Common Tree 1.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Road_Bend",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 8,
+            "height": 384,
+            "keepAspectRatio": false,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Road Bend.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 384,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "RoadCross",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 8,
+            "height": 384,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Road Crossroad Path.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 384,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "RoadIntersection",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 8,
+            "height": 384,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Road Intersection Path.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 384,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "RoadStraight",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 8,
+            "height": 384,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Road Straight.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 384,
+            "animations": []
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Grass.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Player",
+          "type": "Scene3D::Model3DObject",
+          "variables": [
+            {
+              "folded": true,
+              "name": "Force",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Score",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 2,
+              "restitution": 1.5,
+              "linearDamping": 4,
+              "angularDamping": 20,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Sedan.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": -90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SpawnPlayer",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\SpawnPoint.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32,
+                            "y": 31
+                          },
+                          {
+                            "x": 33,
+                            "y": 31
+                          },
+                          {
+                            "x": 33,
+                            "y": 32
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Coin",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            },
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Coin.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SpawnPolice",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\SpawnPoint.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32,
+                            "y": 31
+                          },
+                          {
+                            "x": 33,
+                            "y": 31
+                          },
+                          {
+                            "x": 33,
+                            "y": 32
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Police",
+          "type": "Scene3D::Model3DObject",
+          "variables": [
+            {
+              "folded": true,
+              "name": "Force",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Score",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 2,
+              "restitution": 1.5,
+              "linearDamping": 4,
+              "angularDamping": 20,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Police.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": -90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "CoinRemaining",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Coin Remaining : ",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;00;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Coin Remaining : ",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 60,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Health",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "❤️ : ",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "❤️ : ",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 60,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "VFX",
+            "children": [
+              {
+                "objectName": "CoinRemaining"
+              },
+              {
+                "objectName": "Health"
+              }
+            ]
+          },
+          {
+            "folderName": "Background",
+            "children": [
+              {
+                "objectName": "Road_Bend"
+              },
+              {
+                "objectName": "RoadCross"
+              },
+              {
+                "objectName": "RoadIntersection"
+              },
+              {
+                "objectName": "RoadStraight"
+              },
+              {
+                "objectName": "NewSprite"
+              }
+            ]
+          },
+          {
+            "folderName": "Obstacles",
+            "children": [
+              {
+                "objectName": "Car1"
+              },
+              {
+                "objectName": "Car2"
+              },
+              {
+                "objectName": "Building1"
+              },
+              {
+                "objectName": "Building2"
+              },
+              {
+                "objectName": "Tree"
+              },
+              {
+                "objectName": "Coin"
+              }
+            ]
+          },
+          {
+            "objectName": "Player"
+          },
+          {
+            "objectName": "Police"
+          },
+          {
+            "objectName": "SpawnPlayer"
+          },
+          {
+            "objectName": "SpawnPolice"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Multiplayer::OpenGameLobbies"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Multiplayer::HasLobbyGameJustStarted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Map 1\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerNumber",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "CoinRemaining",
+                "Text",
+                "=",
+                "\"Coin Remaining\" + ToString(SceneInstancesCount(Coin))"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "Multiplayer::PlayersInLobbyCount()-1",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerNumber",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "SpawnPlayer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Player",
+                        "SpawnPlayer.X()",
+                        "SpawnPlayer.Y()",
+                        "\"Player\"+PlayerNumber"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "SpawnPlayer",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Multiplayer::MultiplayerObjectBehavior::SetPlayerObjectOwnership"
+                      },
+                      "parameters": [
+                        "Player",
+                        "MultiplayerObject",
+                        "=",
+                        "PlayerNumber"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerNumber",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "SpawnPlayer"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Police",
+                    "SpawnPolice.X()",
+                    "SpawnPolice.Y()",
+                    "\"Player\"+PlayerNumber"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SpawnPolice",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Multiplayer::MultiplayerObjectBehavior::SetPlayerObjectOwnership"
+                  },
+                  "parameters": [
+                    "Police",
+                    "MultiplayerObject",
+                    "=",
+                    "PlayerNumber"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Multiplayer::IsLobbyGameRunning"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Player Controls"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Multiplayer::MultiplayerObjectBehavior::IsObjectOwnedByCurrentPlayer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "MultiplayerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Force",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "w"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Force",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "s"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Force",
+                        "=",
+                        "-4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "d"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyTorque"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Physics2",
+                        "0.006* Player.Physics2::LinearVelocity()*sign(Player.Force)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "a"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyTorque"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Physics2",
+                        "-0.006*Player.Physics2::LinearVelocity()*sign(Player.Force)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyPolarForce"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Physics2",
+                        "Player.Angle()",
+                        "Player.Force",
+                        "Player.CenterX()",
+                        "Player.CenterY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearDamping"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Road",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearDamping"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Police Controls\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Multiplayer::MultiplayerObjectBehavior::IsObjectOwnedByCurrentPlayer"
+                  },
+                  "parameters": [
+                    "Police",
+                    "MultiplayerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Police",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Police",
+                        "Force",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "w"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Police",
+                        "Force",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "s"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Police",
+                        "Force",
+                        "=",
+                        "-4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "d"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyTorque"
+                      },
+                      "parameters": [
+                        "Police",
+                        "Physics2",
+                        "0.006* Police.Physics2::LinearVelocity()*sign(Police.Force)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "a"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyTorque"
+                      },
+                      "parameters": [
+                        "Police",
+                        "Physics2",
+                        "-0.006*Police.Physics2::LinearVelocity()*sign(Police.Force)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyPolarForce"
+                      },
+                      "parameters": [
+                        "Police",
+                        "Physics2",
+                        "Police.Angle()",
+                        "Police.Force",
+                        "Police.CenterX()",
+                        "Police.CenterY()"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearDamping"
+                  },
+                  "parameters": [
+                    "Police",
+                    "Physics2",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Police",
+                    "Road",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearDamping"
+                  },
+                  "parameters": [
+                    "Police",
+                    "Physics2",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Coin"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Coin",
+                "75",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Coin",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coin",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\CoinPickUP.wav",
+                "",
+                "60",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Police",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Collision.wav",
+                "",
+                "60",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        },
+        {
+          "name": "MultiplayerObject",
+          "type": "Multiplayer::MultiplayerObjectBehavior"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "Silver-Streak, @Bouh, Tristan Rhodes",
+      "category": "Game mechanic",
+      "extensionNamespace": "",
+      "fullName": "Object \"Is On Screen\" Detection",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW1vbml0b3Itc2NyZWVuc2hvdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik05LDZINVYxMEg3VjhIOU0xOSwxMEgxN1YxMkgxNVYxNEgxOU0yMSwxNkgzVjRIMjFNMjEsMkgzQzEuODksMiAxLDIuODkgMSw0VjE2QTIsMiAwIDAsMCAzLDE4SDEwVjIwSDhWMjJIMTZWMjBIMTRWMThIMjFBMiwyIDAgMCwwIDIzLDE2VjRDMjMsMi44OSAyMi4xLDIgMjEsMiIgLz48L3N2Zz4=",
+      "name": "IsOnScreen",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg",
+      "shortDescription": "This adds a condition to detect if an object is on screen based off its current layer.",
+      "version": "1.2.1",
+      "description": [
+        "This extension adds conditions to check if an object is located within the visible portion of its layer's camera. The condition also allows for specifying padding to the virtual screen border.",
+        "",
+        "Note that this does not take into account any object visibility, such as being hidden or 0 opacity, but can be combined with those existing conditions."
+      ],
+      "origin": {
+        "identifier": "IsOnScreen",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "is on screen",
+        "condition",
+        "visible",
+        "hide",
+        "screen"
+      ],
+      "authorIds": [
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92",
+        "8Ih1aa8f5gWUp4UB2BdhQ2iXWxJ3",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "This behavior provides a condition to check if the object is located within the visible portion of its layer's camera. The condition also allows for specifying padding to the virtual screen border.\nNote that object visibility, such as being hidden or 0 opacity, is not considered (but you can use those existing conditions in addition to this behavior).",
+          "fullName": "Is on screen",
+          "name": "InOnScreen",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Checks if an object position is within the viewport of its layer.",
+              "fullName": "Is on screen",
+              "functionType": "Condition",
+              "name": "IsOnScreen",
+              "sentence": "_PARAM0_ is on screen (padded by _PARAM2_ pixels)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "/*",
+                    "Get the object layer, convert the position from this layer to the screen coordinates.",
+                    "Get the point on each side on the object on screen, and compare with the screen area.",
+                    "",
+                    "This way even if the camera has a rotation or custom scale the object is always compared to the screen area.",
+                    "*/",
+                    "",
+                    "",
+                    "// Get the layer of the object.",
+                    "const object = objects[0];",
+                    "const layer = runtimeScene.getLayer(object.getLayer());",
+                    "",
+                    "// Get the aabb of the object on his layer.",
+                    "const aabb = object.getVisibilityAABB();",
+                    "",
+                    "// Get the layer to convert the coordinates of the AABB to the screen coordinates",
+                    "const topLeft = layer.convertInverseCoords(aabb.min[0], aabb.min[1]);",
+                    "const topRight = layer.convertInverseCoords(aabb.max[0], aabb.min[1]);",
+                    "const bottomRight = layer.convertInverseCoords(aabb.max[0], aabb.max[1]);",
+                    "const bottomLeft = layer.convertInverseCoords(aabb.min[0], aabb.max[1]);",
+                    "",
+                    "// Get the points on each side of the object on screen.",
+                    "const posLeftObjectOnScreen = Math.min(topLeft[0], topRight[0], bottomLeft[0], bottomRight[0]);",
+                    "const posRightObjectOnScreen = Math.max(topLeft[0], topRight[0], bottomLeft[0], bottomRight[0]);",
+                    "const posUpObjectOnScreen = Math.min(topLeft[1], topRight[1], bottomLeft[1], bottomRight[1]);",
+                    "const posDownObjectOnScreen = Math.max(topLeft[1], topRight[1], bottomLeft[1], bottomRight[1]);",
+                    "",
+                    "const padding = eventsFunctionContext.getArgument(\"Padding\");",
+                    "",
+                    "if (",
+                    "    !(posLeftObjectOnScreen - padding > runtimeScene.getGame().getGameResolutionWidth() ||",
+                    "        posUpObjectOnScreen - padding > runtimeScene.getGame().getGameResolutionHeight() ||",
+                    "        posRightObjectOnScreen + padding < 0 ||",
+                    "        posDownObjectOnScreen + padding < 0",
+                    "        )",
+                    ") {",
+                    "    eventsFunctionContext.returnValue = true;",
+                    "}",
+                    ""
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "IsOnScreen::InOnScreen",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Padding (in pixels)",
+                  "longDescription": "Number of pixels to pad the screen border. Zero by default. A negative value goes inside the screen, a positive value go outside.",
+                  "name": "Padding",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": [
+                {
+                  "name": "Group",
+                  "objects": []
+                }
+              ]
+            }
+          ],
+          "propertyDescriptors": [],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "Camera",
+      "extensionNamespace": "",
+      "fullName": "Third person camera",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSI3LDEwIDEsMTMgNywxNiAxMywxMyAiLz4NCjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjEsMTMgMSwyMCA3LDIzIDEzLDIwIDEzLDEzICIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjciIHkxPSIxNiIgeDI9IjciIHkyPSIyMyIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjMxIiB5MT0iMTYiIHgyPSIyMSIgeTI9IjgiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIyMSIgeTE9IjI0IiB4Mj0iMzEiIHkyPSIxNiIvPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTIyLjcsMjIuNkMyMCwyMS43LDE4LDE5LjEsMTgsMTZjMC0zLjEsMi01LjcsNC43LTYuNiIvPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTE5LjgsMTEuM2MxLjQsMS4xLDIuMiwyLjgsMi4yLDQuN2MwLDEuOS0wLjksMy42LTIuMiw0LjciLz4NCjwvc3ZnPg0K",
+      "name": "ThirdPersonCamera",
+      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Virtual Reality/94e95d2c318e1f3dc7151a351024e13c574e1e44669c6696aa107d60230073f6_Virtual Reality_3d_vision_eye_vr.svg",
+      "shortDescription": "Move the camera  to look at an object from a given distance.",
+      "version": "1.2.1",
+      "description": [
+        "Move the camera  to look at an object from a given distance with a rotation and an elevation angles.",
+        "",
+        "It can be useful for:",
+        "- Third person camera",
+        "- Isometric-like point of view",
+        ""
+      ],
+      "origin": {
+        "identifier": "ThirdPersonCamera",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "3d",
+        "camera"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Move the camera to look at a position from a distance.",
+          "fullName": "Look at a position from a distance (deprecated)",
+          "functionType": "Action",
+          "name": "LookFromDistanceAtPosition",
+          "private": true,
+          "sentence": "Move the camera of _PARAM6_ to look at _PARAM1_; _PARAM2_ from _PARAM3_ pixels with a rotation of _PARAM4_° and an elevation of _PARAM5_°",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "GetArgumentAsNumber(\"PositionX\") + GetArgumentAsNumber(\"Distance\") * cos(ToRad(GetArgumentAsNumber(\"RotationAngle\") + 90)) * cos(ToRad(GetArgumentAsNumber(\"ElevationAngle\")))",
+                    "GetArgumentAsString(\"Layer\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "GetArgumentAsNumber(\"PositionY\") + GetArgumentAsNumber(\"Distance\") * sin(ToRad(GetArgumentAsNumber(\"RotationAngle\") + 90)) * cos(ToRad(GetArgumentAsNumber(\"ElevationAngle\")))",
+                    "GetArgumentAsString(\"Layer\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene3D::SetCameraZ"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "GetArgumentAsNumber(\"Distance\") * sin(ToRad(GetArgumentAsNumber(\"ElevationAngle\")))",
+                    "GetArgumentAsString(\"Layer\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene3D::TurnCameraTowardPosition"
+                  },
+                  "parameters": [
+                    "",
+                    "GetArgumentAsNumber(\"PositionX\")",
+                    "GetArgumentAsNumber(\"PositionY\")",
+                    "0",
+                    "GetArgumentAsString(\"Layer\")",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Position on X axis",
+              "name": "PositionX",
+              "type": "expression"
+            },
+            {
+              "description": "Position on Y axis",
+              "name": "PositionY",
+              "type": "expression"
+            },
+            {
+              "description": "Distance",
+              "name": "Distance",
+              "type": "expression"
+            },
+            {
+              "description": "Rotation angle (around Z axis)",
+              "name": "RotationAngle",
+              "type": "expression"
+            },
+            {
+              "description": "Elevation angle (around Y axis)",
+              "name": "ElevationAngle",
+              "type": "expression"
+            },
+            {
+              "description": "Layer",
+              "name": "Layer",
+              "type": "layer"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Move the camera to look at an object from a distance.",
+          "fullName": "Look at an object from a distance (deprecated)",
+          "functionType": "Action",
+          "name": "LookFromDistanceAtObject",
+          "private": true,
+          "sentence": "Move the camera of _PARAM5_ to look at _PARAM1_ from _PARAM2_ pixels with a rotation of _PARAM3_° and an elevation of _PARAM4_°",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ThirdPersonCamera::LookFromDistanceAtPosition"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.CenterX()",
+                    "Object.CenterY()",
+                    "GetArgumentAsNumber(\"Distance\")",
+                    "GetArgumentAsNumber(\"RotationAngle\")",
+                    "GetArgumentAsNumber(\"ElevationAngle\")",
+                    "GetArgumentAsString(\"Layer\")",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "objectList"
+            },
+            {
+              "description": "Distance",
+              "name": "Distance",
+              "type": "expression"
+            },
+            {
+              "description": "Rotation angle (around Z axis)",
+              "name": "RotationAngle",
+              "type": "expression"
+            },
+            {
+              "description": "Elevation angle (around Y axis)",
+              "name": "ElevationAngle",
+              "type": "expression"
+            },
+            {
+              "description": "Layer",
+              "name": "Layer",
+              "type": "layer"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Move the camera to look at a position from a distance.",
+          "fullName": "Look at a position from a distance",
+          "functionType": "Action",
+          "name": "LookFromDistanceAtPosition3D",
+          "sentence": "Move the camera of _PARAM7_ to look at _PARAM1_; _PARAM2_; _PARAM3_ from _PARAM4_ pixels with a rotation of _PARAM5_° and an elevation of _PARAM6_°",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "PositionX + Distance * cos(ToRad(RotationAngle + 90)) * cos(ToRad(ElevationAngle))",
+                    "Layer",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "PositionY + Distance * sin(ToRad(RotationAngle + 90)) * cos(ToRad(ElevationAngle))",
+                    "Layer",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene3D::SetCameraZ"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "PositionZ + Distance * sin(ToRad(ElevationAngle))",
+                    "Layer",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene3D::SetCameraRotationX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "90 - ElevationAngle",
+                    "Layer",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene3D::SetCameraRotationY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "0",
+                    "Layer",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraAngle"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "RotationAngle",
+                    "Layer",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Position on X axis",
+              "name": "PositionX",
+              "type": "expression"
+            },
+            {
+              "description": "Position on Y axis",
+              "name": "PositionY",
+              "type": "expression"
+            },
+            {
+              "description": "Position on Z axis",
+              "name": "PositionZ",
+              "type": "expression"
+            },
+            {
+              "description": "Distance",
+              "name": "Distance",
+              "type": "expression"
+            },
+            {
+              "description": "Rotation angle (around Z axis)",
+              "name": "RotationAngle",
+              "type": "expression"
+            },
+            {
+              "description": "Elevation angle (around Y axis)",
+              "name": "ElevationAngle",
+              "type": "expression"
+            },
+            {
+              "description": "Layer",
+              "name": "Layer",
+              "type": "layer"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Move the camera to look at an object from a distance.",
+          "fullName": "Look at an object from a distance",
+          "functionType": "Action",
+          "group": "Layers and cameras",
+          "name": "LookFromDistanceAtObject3D",
+          "sentence": "Move the camera of _PARAM6_ to look at _PARAM1_ from _PARAM3_ pixels with a rotation of _PARAM4_° and an elevation of _PARAM5_°",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ThirdPersonCamera::LookFromDistanceAtPosition3D"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.CenterX()",
+                    "Object.CenterY()",
+                    "Object.Object3D::CenterZ()",
+                    "Distance",
+                    "RotationAngle",
+                    "ElevationAngle",
+                    "Layer",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "objectList"
+            },
+            {
+              "description": "3D capability",
+              "name": "Object3D",
+              "supplementaryInformation": "Scene3D::Base3DBehavior",
+              "type": "behavior"
+            },
+            {
+              "description": "Distance",
+              "name": "Distance",
+              "type": "expression"
+            },
+            {
+              "description": "Rotation angle (around Z axis)",
+              "name": "RotationAngle",
+              "type": "expression"
+            },
+            {
+              "description": "Elevation angle (around Y axis)",
+              "name": "ElevationAngle",
+              "type": "expression"
+            },
+            {
+              "description": "Layer",
+              "name": "Layer",
+              "type": "layer"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Smoothly follow an object at a distance.",
+          "fullName": "Third person camera",
+          "name": "ThirdPersonCamera",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Update private properties through setters to check their values and initialize state."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetRotationHalfwayDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyRotationHalfwayDuration()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetTranslationZHalfwayDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyTranslationZHalfwayDuration()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::PropertyIsCalledManually"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::DoMoveCameraCloser"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Move the camera closer to the object. This action must be called after the object has moved for the frame.",
+              "fullName": "Move the camera closer",
+              "functionType": "Action",
+              "name": "MoveCameraCloser",
+              "sentence": "Move the camera closer to _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "The camera following is called with an action, the call from doStepPreEvents must be disabled to avoid to do it twice."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyIsCalledManually"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::DoMoveCameraCloser"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Move the camera closer to the object.",
+              "fullName": "Do move the camera closer",
+              "functionType": "Action",
+              "name": "DoMoveCameraCloser",
+              "private": true,
+              "sentence": "Do move the camera closer _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "At each frame, the camera must catchup the target by a given ratio (speed)\ncameraX(t) - targetX = (cameraX(t - 1) - targetX) * (1 - speed)\n\nThe frame rate must not impact on the catch-up speed, we don't want a speed in ratio per frame but a speed ratio per second, like this:\ncameraX(t) - targetX = (cameraX(t - 1s) - targetX) * (1 - speed)\n\nOk, but we still need to process each frame, we can use a exponent for this:\ncameraX(t) - targetX = (cameraX(t - timeDelta) - targetX) * (1 - speed)^timeDelta\ncameraX(t) = targetX + (cameraX(t - timeDelta) - targetX) * exp(timeDelta * ln((1 - speed)))\n\npow is probably more efficient than precalculated log if the speed is changed continuously but this might be rare enough."
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Z translation",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ThirdPersonCamera::ThirdPersonCamera::PropertyCameraZ"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "<",
+                                "Object.Behavior::FreeAreaZMin()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyCameraZ"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "Object.Behavior::FreeAreaZMin() + (CameraZ - Object.Behavior::FreeAreaZMin()) * exp(TimeDelta() * TranslationZLogSpeed)"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ThirdPersonCamera::ThirdPersonCamera::PropertyCameraZ"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ">",
+                                "Object.Behavior::FreeAreaZMax()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyCameraZ"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "Object.Behavior::FreeAreaZMax() + (CameraZ - Object.Behavior::FreeAreaZMax()) * exp(TimeDelta() * TranslationZLogSpeed)"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Z rotation",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ThirdPersonCamera::LookFromDistanceAtPosition3D"
+                          },
+                          "parameters": [
+                            "",
+                            "Object.X() + OffsetX",
+                            "Object.Y() + OffsetY",
+                            "CameraZ + OffsetZ",
+                            "Distance",
+                            "Object.Angle() + 90 + (AngleDifference(CameraAngle(Object.Layer(), 0), (Object.Angle() + 90))) * exp(TimeDelta() * Object.Behavior::PropertyRotationLogSpeed()) + RotationAngleOffset",
+                            "Object.Object3D::RotationY() + ElevationAngleOffset",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the halfway time for rotation of the object.",
+              "fullName": "Halfway time for rotation",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "RotationHalfwayDuration",
+              "sentence": "the halfway time for rotation",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "RotationHalfwayDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "RotationHalfwayDuration",
+              "name": "SetRotationHalfwayDuration",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "ln((1 - speed)) = ln(1 / 2) / halfwatTime"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyRotationHalfwayDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyRotationLogSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "log(0.5) / Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the halfway time on Z axis of the object.",
+              "fullName": "Halfway time on Z axis",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "TranslationZHalfwayDuration",
+              "sentence": "the halfway time on Z axis",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "TranslationZHalfwayDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "TranslationZHalfwayDuration",
+              "name": "SetTranslationZHalfwayDuration",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "ln((1 - speed)) = ln(1 / 2) / halfwatTime"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyTranslationZHalfwayDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyTranslationZLogSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "log(0.5) / Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return follow free area bottom border Z.",
+              "fullName": "Free area Z min",
+              "functionType": "Expression",
+              "group": "Private",
+              "name": "FreeAreaZMin",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Object3D::CenterZ() + OffsetZ - FollowFreeAreaZMin"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return follow free area top border Z.",
+              "fullName": "Free area Z max",
+              "functionType": "Expression",
+              "group": "Private",
+              "name": "FreeAreaZMax",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Object3D::CenterZ() + OffsetZ + FollowFreeAreaZMax"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the follow free area top border on Z axis of the object.",
+              "fullName": "Follow free area top border on Z axis",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "FollowFreeAreaZMax",
+              "sentence": "the follow free area top border on Z axis",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FollowFreeAreaZMax"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "FollowFreeAreaZMax",
+              "name": "SetFollowFreeAreaZMax",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyFollowFreeAreaZMax"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the follow free area bottom border on Z axis of the object.",
+              "fullName": "Follow free area bottom border on Z axis",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "FollowFreeAreaZMin",
+              "sentence": "the follow free area bottom border on Z axis",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FollowFreeAreaZMin"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "FollowFreeAreaZMin",
+              "name": "SetFollowFreeAreaZMin",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyFollowFreeAreaZMin"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the camera distance of the object.",
+              "fullName": "Camera distance",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "Distance",
+              "sentence": "the camera distance",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Distance"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Distance",
+              "name": "SetDistance",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyDistance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the x offset of the object.",
+              "fullName": "X offset",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "OffsetX",
+              "sentence": "the x offset",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "OffsetX"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "OffsetX",
+              "name": "SetOffsetX",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyOffsetX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the y offset of the object.",
+              "fullName": "Y offset",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "OffsetY",
+              "sentence": "the y offset",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "OffsetY"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "OffsetY",
+              "name": "SetOffsetY",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyOffsetY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the z offset of the object.",
+              "fullName": "Z offset",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "OffsetZ",
+              "sentence": "the z offset",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "OffsetZ"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "OffsetZ",
+              "name": "SetOffsetZ",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyOffsetZ"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the rotation angle offset of the object.",
+              "fullName": "Rotation angle offset",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "RotationAngleOffset",
+              "sentence": "the rotation angle offset",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "RotationAngleOffset"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "RotationAngleOffset",
+              "name": "SetRotationAngleOffset",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyRotationAngleOffset"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the elevation angle offset of the object.",
+              "fullName": "Elevation angle offset",
+              "functionType": "ExpressionAndCondition",
+              "group": "Third person camera configuration",
+              "name": "ElevationAngleOffset",
+              "sentence": "the elevation angle offset",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "ElevationAngleOffset"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "ElevationAngleOffset",
+              "name": "SetElevationAngleOffset",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThirdPersonCamera::ThirdPersonCamera::SetPropertyElevationAngleOffset"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "ThirdPersonCamera::ThirdPersonCamera",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "3D capability",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Scene3D::Base3DBehavior"
+              ],
+              "name": "Object3D"
+            },
+            {
+              "value": "0.125",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Halfway  time for rotation",
+              "description": "",
+              "group": "Catch-up speed",
+              "extraInformation": [],
+              "name": "RotationHalfwayDuration"
+            },
+            {
+              "value": "0.125",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Halfway time on Z axis",
+              "description": "",
+              "group": "Catch-up speed",
+              "extraInformation": [],
+              "name": "TranslationZHalfwayDuration"
+            },
+            {
+              "value": "500",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Camera distance",
+              "description": "",
+              "group": "Position",
+              "extraInformation": [],
+              "name": "Distance"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "X offset",
+              "description": "",
+              "group": "Position",
+              "extraInformation": [],
+              "name": "OffsetX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Y offset",
+              "description": "",
+              "group": "Position",
+              "extraInformation": [],
+              "name": "OffsetY"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Z offset",
+              "description": "",
+              "group": "Position",
+              "extraInformation": [],
+              "name": "OffsetZ"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Rotation angle offset",
+              "description": "",
+              "group": "Position",
+              "extraInformation": [],
+              "name": "RotationAngleOffset"
+            },
+            {
+              "value": "20",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Elevation angle offset",
+              "description": "",
+              "group": "Position",
+              "extraInformation": [],
+              "name": "ElevationAngleOffset"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Follow free area top border on Z axis",
+              "description": "",
+              "group": "Position",
+              "extraInformation": [],
+              "advanced": true,
+              "name": "FollowFreeAreaZMax"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Follow free area bottom border on Z axis",
+              "description": "",
+              "group": "Position",
+              "extraInformation": [],
+              "advanced": true,
+              "name": "FollowFreeAreaZMin"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "RotationLogSpeed"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "TranslationZLogSpeed"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "IsCalledManually"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CameraZ"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [
+    {
+      "associatedLayout": "Scene1",
+      "name": "Map 1",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3.906250000000001,
+          "height": 4000,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "ce4f293d-8bf7-4afc-8962-c6c9d513a059",
+          "width": 5500.000000000001,
+          "x": -2304,
+          "y": -1824,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Road_Bend",
+          "persistentUuid": "2f5d5a18-8fc5-4566-a231-f6adb16d76a9",
+          "width": 0,
+          "x": -1760,
+          "y": -1248,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Road_Bend",
+          "persistentUuid": "02f6a0f9-5b24-44b0-ba7b-b866576eb4d5",
+          "width": 384,
+          "x": -2048,
+          "y": 1536,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Road_Bend",
+          "persistentUuid": "cb3e7f7a-c3d2-4147-adc5-343b51b5bc11",
+          "width": 0,
+          "x": 2560,
+          "y": -960,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Road_Bend",
+          "persistentUuid": "10561c6b-2e02-473c-ae34-6335838f734a",
+          "width": 0,
+          "x": 2272,
+          "y": 1824,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "19bbddc7-dd11-44f0-a444-4f470004307b",
+          "width": 1187,
+          "x": 2448,
+          "y": -490,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadIntersection",
+          "persistentUuid": "94c43442-e94a-43f2-a02b-a96c5ef2d7c7",
+          "width": 0,
+          "x": 2272,
+          "y": 288,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "3dead7fe-6fb4-4bb9-b0c4-0fca38ea5dd8",
+          "width": 1152,
+          "x": 2464,
+          "y": 1056,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "b96b87e7-b4d2-43b8-a303-5d95cabd1f78",
+          "width": 1214,
+          "x": -2175,
+          "y": -504,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "6b263cd7-ad57-4d72-84b7-6f40e2f96ca2",
+          "width": 1152,
+          "x": -2144,
+          "y": 1056,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadIntersection",
+          "persistentUuid": "5d772054-da7f-4d21-b6fe-299a8fbe5a4b",
+          "width": 0,
+          "x": -1760,
+          "y": 288,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "2be737aa-ee7a-42f3-9ed9-9597e7a0322e",
+          "width": 1408,
+          "x": -1664,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "f8c8054a-9c0f-48d4-bb6c-9624d6ce5ff4",
+          "width": 1408,
+          "x": -1664,
+          "y": -1536,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "22871115-196d-4296-a105-10a7b6842bad",
+          "width": 1167,
+          "x": -359,
+          "y": -484,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "bea4ba61-2bd1-43ee-a331-db23a342a3f4",
+          "width": 1167,
+          "x": 665,
+          "y": -484,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "d19a2c4f-03de-41aa-8216-1666bef667a3",
+          "width": 1167,
+          "x": -359,
+          "y": 1052,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "8c07571f-dcc5-4034-a201-7b9ae5128e9c",
+          "width": 1167,
+          "x": 665,
+          "y": 1052,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadCross",
+          "persistentUuid": "a2bc07b5-58f5-48d9-8d42-4f42233a01d2",
+          "width": 0,
+          "x": -256,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadCross",
+          "persistentUuid": "55dfec15-94e1-4dad-b5c9-fb787349b400",
+          "width": 0,
+          "x": 768,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "da1f83be-56a2-45f6-b5d2-01e9a916bb7b",
+          "width": 640,
+          "x": 128,
+          "y": 0,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "6074dc9a-1de2-444d-82d2-1f401567534a",
+          "width": 1408,
+          "x": 1152,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadIntersection",
+          "persistentUuid": "2c7ef95d-6e51-4cd4-bf7d-deb9e6d7e670",
+          "width": 0,
+          "x": -256,
+          "y": -960,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadIntersection",
+          "persistentUuid": "bea10248-120f-4f8c-87b3-6f6b5af2dde0",
+          "width": 0,
+          "x": 768,
+          "y": -960,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "9ab839bb-b5bb-4227-a18c-b8886f0843e0",
+          "width": 1408,
+          "x": 1152,
+          "y": -1536,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "c04529e8-02bb-4d84-a46c-6320d2676c49",
+          "width": 640,
+          "x": 128,
+          "y": -1536,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "a51691be-8a68-4d00-b87e-1267d925eb22",
+          "width": 1408,
+          "x": -1664,
+          "y": 1536,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadIntersection",
+          "persistentUuid": "94bf5b39-2d33-472b-a4e9-ae47a37b48e2",
+          "width": 0,
+          "x": -256,
+          "y": 1536,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadIntersection",
+          "persistentUuid": "726a5c79-7d43-480b-b7b0-1fd38e817720",
+          "width": 384,
+          "x": 768,
+          "y": 1536,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "f131d122-3724-4aef-b626-0445f260e0f9",
+          "width": 640,
+          "x": 128,
+          "y": 1536,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadStraight",
+          "persistentUuid": "5240e4ac-1d0f-48a0-917c-53ee3253af7a",
+          "width": 1408,
+          "x": 1152,
+          "y": 1536,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 331.93547095456074,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "54033449-1571-4619-b189-0e8bb3c31759",
+          "width": 400,
+          "x": 1336,
+          "y": -1029,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "eb6e85f5-f333-4604-b749-bad1e5f37b42",
+          "width": 400,
+          "x": 1736,
+          "y": -1019,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "7e59e7da-e5bb-477d-af89-691cf94d3490",
+          "width": 400,
+          "x": 2376,
+          "y": -133,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "8df05cef-622f-451e-8911-9f44aef026e5",
+          "width": 640,
+          "x": 1856,
+          "y": -133,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "0543e9dd-27ca-48be-b657-32c7c7ff02e9",
+          "width": 400,
+          "x": 1352,
+          "y": -123,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 294,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "a04df042-96e7-4e07-90a2-dea694b351f9",
+          "width": 656,
+          "x": 2232,
+          "y": -1019,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "29b98c39-c123-459c-8b82-212653d2c32c",
+          "width": 400,
+          "x": 1275,
+          "y": -696,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "2a1005db-e36a-4a15-9580-fe0f0c9cb0c5",
+          "width": 400,
+          "x": 2438,
+          "y": -456,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "23905513-b917-4bb8-9495-afdb1e777f1b",
+          "width": 384,
+          "x": 1286,
+          "y": -320,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 294,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "bba0ee3c-97c6-47eb-8385-b6d087c28760",
+          "width": 272,
+          "x": 2438,
+          "y": -760,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "8b2c5b98-f6cc-4c67-b53f-12feae6232b8",
+          "width": 512,
+          "x": -1408,
+          "y": 507,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "fa5122ad-3179-46da-a032-b8742849c37e",
+          "width": 400,
+          "x": -952,
+          "y": 507,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 294,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "f5bd7504-d369-4293-8e5c-e1037cae2ce2",
+          "width": 656,
+          "x": -568,
+          "y": 507,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 294,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "2b55c59b-1242-493f-8cc5-09bb59b56062",
+          "width": 272,
+          "x": -378,
+          "y": 760,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "8f7bcb98-f6d5-4ecd-be2d-6234d7929493",
+          "width": 400,
+          "x": -378,
+          "y": 1080,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 294,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "9ed9aedb-e6d4-45d2-bd01-614610d5a387",
+          "width": 256,
+          "x": -384,
+          "y": 1403,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "a9d99758-4f41-49b1-bcfc-bc6ce6b82215",
+          "width": 640,
+          "x": -824,
+          "y": 1403,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 294,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "4ff749a4-f5e1-4b5a-9e40-e15fa7ff8ee1",
+          "width": 528,
+          "x": -1400,
+          "y": 1403,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "85067898-59cb-4a66-82cf-e2256eb6954d",
+          "width": 400,
+          "x": -1541,
+          "y": 696,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "5e250984-2c74-4961-b19e-8252339b6b40",
+          "width": 384,
+          "x": -1530,
+          "y": 1088,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 328.2704826244034,
+          "height": 366.98893297949655,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "c31b16be-aebe-45cb-9f66-a6aee2bbb6c0",
+          "width": 250,
+          "x": -1415,
+          "y": -869,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 328.2704826244034,
+          "height": 366.98893297949655,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "2dc5a36e-577f-422d-a7c3-d59a5c362659",
+          "width": 250,
+          "x": -519,
+          "y": -485,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 328.2704826244034,
+          "height": 366.98893297949655,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "740cc7a6-aab5-424c-96d7-cabba4d18750",
+          "width": 250,
+          "x": 1401,
+          "y": 556,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 328.2704826244034,
+          "height": 366.98893297949655,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "515aa0b5-13f9-4f6e-ad82-5006a9328c06",
+          "width": 250,
+          "x": 2175,
+          "y": 1179,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "f1d36cd0-90bb-42ee-8264-74a988c4c0ff",
+          "width": 0,
+          "x": -1408,
+          "y": 128,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "daa9181d-f928-4ca0-81fd-3335a3b7853a",
+          "width": 640,
+          "x": 448,
+          "y": -122,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "221b6f97-da01-4745-b717-94565c557cf6",
+          "width": 400,
+          "x": 262,
+          "y": -456,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 294.1176525586755,
+          "height": 245,
+          "layer": "",
+          "name": "Building2",
+          "persistentUuid": "f87a1376-fbe3-462b-a5a6-0d260778b5b8",
+          "width": 400,
+          "x": 646,
+          "y": -456,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "8110b753-fe5f-4fbb-af20-71ecf30db7c7",
+          "width": 640,
+          "x": 448,
+          "y": -1018,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "c22629c7-c7db-453c-8825-ca4e58435869",
+          "width": 640,
+          "x": 448,
+          "y": 507,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 332,
+          "height": 245,
+          "layer": "",
+          "name": "Building1",
+          "persistentUuid": "8ac5a6aa-0793-4ac2-84b1-ebd26fc7ca72",
+          "width": 640,
+          "x": 448,
+          "y": 1414,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "0483ace8-7743-45dc-a139-fdc06bdf1658",
+          "width": 0,
+          "x": -976,
+          "y": 271,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "25ea6d5f-7c1f-4f09-b0f2-edafd4bf02fe",
+          "width": 0,
+          "x": -768,
+          "y": 256,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "0582e516-c852-4426-a847-08fca0fcf97b",
+          "width": 0,
+          "x": -432,
+          "y": 271,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Car1",
+          "persistentUuid": "036cf27b-2214-48ab-8110-f384b487847a",
+          "width": 0,
+          "x": 306,
+          "y": 101,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Car1",
+          "persistentUuid": "32f0f8b2-9a9a-4f31-8a7a-8b8f65b98c22",
+          "width": 0,
+          "x": 462,
+          "y": 101,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Car2",
+          "persistentUuid": "f4bb8c01-fca8-4e44-b5cd-e0406fdbdea0",
+          "width": 0,
+          "x": 334,
+          "y": 360,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Car2",
+          "persistentUuid": "13aa8cec-bcff-4660-97e5-1d329f52fea7",
+          "width": 0,
+          "x": 690,
+          "y": 104,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "7c7557fb-2561-4c72-90fa-dae02a4b4f46",
+          "width": 0,
+          "x": -640,
+          "y": -1408,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "e280ed9b-79d0-4662-a463-5cfc1eb8583c",
+          "width": 0,
+          "x": -128,
+          "y": -1408,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "0f37861e-3cec-4a95-90f7-dfc362ff3b81",
+          "width": 0,
+          "x": -1280,
+          "y": 128,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "f0b66571-5c9f-4b2d-8ac3-dfa092e9406d",
+          "width": 0,
+          "x": 896,
+          "y": -1408,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPolice",
+          "persistentUuid": "67df5ded-7b73-4e43-b3ee-903769b096e9",
+          "width": 0,
+          "x": 896,
+          "y": 1024,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPolice",
+          "persistentUuid": "2c0b3809-4ff3-4c2b-9d6b-d000a67767f0",
+          "width": 0,
+          "x": 2304,
+          "y": 128,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "ea54e461-325f-4465-8605-4632b8865d0f",
+          "width": 0,
+          "x": -128,
+          "y": 1664,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "bc9fcb23-be2c-4e8f-af58-1a73339547ea",
+          "width": 0,
+          "x": 896,
+          "y": 1664,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "fe5f54f2-d062-4efa-8a51-7d953155966c",
+          "width": 0,
+          "x": 896,
+          "y": 896,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "aa907b3c-468d-4c96-81c2-a6eb5a37e258",
+          "width": 0,
+          "x": 2304,
+          "y": 1664,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPlayer",
+          "persistentUuid": "0b8313cf-cc0c-44be-a34c-0c0e3fcd5008",
+          "width": 0,
+          "x": -1408,
+          "y": 1664,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPolice",
+          "persistentUuid": "983c9bf1-f01d-4c38-a834-aa5b5759abca",
+          "width": 0,
+          "x": 2688,
+          "y": 128,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPolice",
+          "persistentUuid": "ea5c2ee6-1e9c-4e72-9acb-e7e09eca0592",
+          "width": 0,
+          "x": 2688,
+          "y": 1664,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpawnPolice",
+          "persistentUuid": "350837d3-f5cd-4f61-bc52-99776971eb61",
+          "width": 0,
+          "x": 2688,
+          "y": -1408,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "b4812ad6-f704-47ee-86d9-a9695cc81ec8",
+          "width": 0,
+          "x": 0,
+          "y": 256,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "bff2e931-714d-4cf7-849f-39a118f398bd",
+          "width": 0,
+          "x": 256,
+          "y": 256,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "c8c05f84-f454-4bf7-bbc3-4005a2e3acc3",
+          "width": 0,
+          "x": 512,
+          "y": 256,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "24118076-1d97-4bd7-964a-3afe90955805",
+          "width": 0,
+          "x": 768,
+          "y": 256,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "b21858cc-3d0a-40ba-b6a5-d82e09b1ee0c",
+          "width": 0,
+          "x": 896,
+          "y": -896,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "736c47ed-4ebe-45ed-8832-d866bc2ef1de",
+          "width": 0,
+          "x": 896,
+          "y": -768,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "9c89b386-8cf2-42fd-a536-73ad313976a6",
+          "width": 0,
+          "x": 896,
+          "y": -640,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "201e3edd-0165-4788-8e39-9908e342006d",
+          "width": 0,
+          "x": 896,
+          "y": -512,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "cf80edbd-8da4-492d-93aa-ce87745c5cf4",
+          "width": 0,
+          "x": 1536,
+          "y": 1664,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "9c308ef2-8bd0-4247-b477-af207d9d9c58",
+          "width": 0,
+          "x": 1792,
+          "y": 1664,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "4b881e29-530c-416c-b759-180ad3432585",
+          "width": 0,
+          "x": 1328,
+          "y": 1679,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "2ce34054-f5f1-4350-8aed-e60ac5846437",
+          "width": 0,
+          "x": 2048,
+          "y": 1664,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 128,
+        "gridHeight": 128,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.18305734955560082,
+        "windowMask": false
+      }
+    }
+  ],
+  "externalSourceFiles": []
+}
